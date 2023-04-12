@@ -142,10 +142,10 @@ next_month AS (
 	AND s.station_province='ON'
 )
 SELECT 
-  curr_month.curr_month_total,
-  prev_month.prev_month_total,
-  next_month.next_month_total
+  c.curr_month_total,
+  p.prev_month_total,
+  n.next_month_total
 FROM 
-  curr_month,
-  prev_month,
-  next_month;
+  curr_month c,
+  prev_month p,
+  next_month n;
