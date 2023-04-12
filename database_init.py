@@ -3,9 +3,9 @@ import psycopg2
 # connect to the server
 conn = psycopg2.connect(
     host="localhost",
-    # database="AirQualityDataMart",
+    #database="AirQualityDataMart",
     user="postgres",
-    password="password"
+    password="272121"
 )
 
 # Set autocommit to True to avoid running in a transaction block
@@ -21,7 +21,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="airqualitydatamart",
     user="postgres",
-    password="password"
+    password="272121"
 )
 cur = conn.cursor()
 # read sql files

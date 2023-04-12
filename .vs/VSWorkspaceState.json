@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AirQuality_SpreadSheets\\HourlyData_ByYear",
+    "\\AirQuality_SpreadSheets\\HourlyData_ByYear\\Hourly_2004",
+    "\\AirQuality_SpreadSheets\\HourlyData_ByYear\\Hourly_2021",
+    "\\database_init_sql",
+    "\\TotalData"
+  ],
+  "SelectedNode": "\\data_insert.py",
+  "PreviewInSolutionExplorer": false
+}

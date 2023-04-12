@@ -1,6 +1,6 @@
 CREATE TABLE Time (
 	time_id SERIAL PRIMARY KEY,
-	second int,
+	minute int,
 	hour int,
 	day int,
 	month int,
